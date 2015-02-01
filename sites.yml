@@ -1,0 +1,11 @@
+---
+whatcd:
+  username: 
+  password:
+  login: https://what.cd/login.php
+  search: https://what.cd/torrents.php?action=basic&searchstr=
+brokenstones:
+  username: 
+  password:
+  login: http://brokenstones.me/login.php
+  search: http://brokenstones.me/torrents.php?action=basic&searchstr=
