@@ -1,11 +1,23 @@
 ---
 whatcd:
-  username: 
+  username:
   password:
   login: https://what.cd/login.php
-  search: https://what.cd/torrents.php?action=basic&searchstr=
+  search: https://what.cd/ajax.php?action=browse&searchstr=
+  columns:
+    ARTIST: artist
+    ALBUM: groupName
+    YEAR: groupYear
+    SNATCHED: totalSnatched
+    SEEDERS: totalSeeders
+    LEECHERS: totalLeechers
 brokenstones:
-  username: 
-  password:
+  username:
+  password: 
   login: http://brokenstones.me/login.php
-  search: http://brokenstones.me/torrents.php?action=basic&searchstr=
+  search: http://brokenstones.me/ajax.php?action=browse&searchstr=
+  columns:
+    NAME: groupName
+    SNATCHED: totalSnatched
+    SEEDERS: totalSeeders
+    LEECHERS: totalLeechers
